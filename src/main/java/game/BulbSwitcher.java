@@ -18,38 +18,7 @@ public class BulbSwitcher {
     }
 
     public static int bulbSwitch(int n){
-
         return (int) Math.sqrt(n);
-//        int[] status = new int[n + 1];
-//        System.out.println(System.currentTimeMillis());
-//
-//
-//        //0: 为关闭状态  1：为打开状态
-//        Arrays.fill(status, 0);
-//        for(int i = 1; i <= n; i++){
-//            if(i == 1){
-//                Arrays.fill(status, 1);
-//            }
-//            else {
-//                //最简单的做法，比较蠢
-//                for(int j = i; j <= n; j+=i){
-//                    if(status[j] == 1){
-//                        status[j] = 0;
-//                    } else {
-//                        status[j] = 1;
-//                    }
-//                }
-//
-//            }
-//        }
-//        System.out.println(System.currentTimeMillis());
-//        int sum = 0;
-//        for(int i = 1; i <= n; i++){
-//            if(status[i] == 1){
-//                sum++;
-//            }
-//        }
-//        return sum;
     }
 
 }
